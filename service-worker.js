@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/neta-web/precache-manifest.6376f174cdf5f695af18016e70867ab9.js"
+  "/neta-web/precache-manifest.87827370e9d4235f45cf1b5834859e19.js"
 );
 
 self.addEventListener('message', (event) => {
