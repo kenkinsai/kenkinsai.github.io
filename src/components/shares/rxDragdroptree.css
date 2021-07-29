@@ -1,0 +1,120 @@
+.rxdragdroptree-over {
+    padding-right: 26px;
+}
+
+.rxdragdroptree-wrap {
+    width: 100%;
+}
+
+.rxdragdroptree-item-inner {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 10px;
+    height: 20px;
+}
+
+.rxdragdroptree-item {
+    position: relative;
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+    border: solid 1px #eee;
+    box-sizing: border-box;
+}
+
+.rxdragdroptree-item>div:first-child { 
+
+}
+
+.rxdragdroptree-placeholder { 
+    background: red;
+    z-index: 10;
+    position: absolute;
+    width: 100px;
+}
+
+.rxdragdroptree-placeholder:before {
+    content: ''; 
+    color: #ffffff;
+    display: block;
+    height: 2px;  
+    box-shadow: 0px 0px 10px red;
+    box-sizing: border-box;  
+}
+
+
+.rxdragdroptree-over.rxdragdroptree-folderstyle {
+    padding-right: 26px;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.rxdragdroptree-folderstyle .rxdragdroptree-wrap {
+    width: 100%;
+}
+
+.rxdragdroptree-folderstyle  .rxdragdroptree-item-inner {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 10px;
+    height: 20px;
+}
+
+.rxdragdroptree-folderstyle .rxdragdroptree-item {
+    position: relative;
+    display: block;
+    padding: 0px;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding-left: 11px;
+    border: none;
+    border-left: solid 1px #aaa;
+    padding-top: 9px;
+    padding-bottom: 0px;
+    margin-left: 5px;
+}
+
+.rxdragdroptree-folderstyle .rxdragdroptree-item:before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 1px;
+    position: absolute;
+    background-color: #aaa;
+    left: 0px;
+    top: 21px;
+}
+
+.rxdragdroptree-folderstyle  .rxdragdroptree-item>div:first-child { 
+
+}
+
+.rxdragdroptree-folderstyle  .rxdragdroptree-placeholder { 
+    background: red;
+    z-index: 10;
+    position: absolute;
+    width: 100px;
+}
+
+.rxdragdroptree-folderstyle  .rxdragdroptree-placeholder:before {
+    content: ''; 
+    color: #ffffff;
+    display: block;
+    height: 2px;
+    box-shadow: 0px 0px 10px red;
+    box-sizing: border-box;  
+}
+
+.rxdragdroptree-folderstyle .rxdragdroptree-item-content {
+    height: 30px;
+    display: block;
+    background-color: #fff;
+    padding: 5px 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: solid 1px #aaa;
+    overflow: hidden;
+}

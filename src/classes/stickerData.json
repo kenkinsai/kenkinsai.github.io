@@ -1,0 +1,85 @@
+{
+  "version": 50,
+  "stickerData": [
+    {
+      "img" : "history.png", 
+      "type": "history", 
+      "data": []
+    },
+    {
+      "img": "emoji_icon.png", 
+      "type": "EmojiIcon", 
+      "data": ["😃", "😄", "😁", "😆", "😅", "😂", "🤣", "😊", "😇", "🙂", "🙃", "😉", "😌", "😍", "🥰", "😘", "😗", "😙", "😚", "😋", "😛", "😝", "😜", "🤪", "🤨", "🧐", "🤓", "😎", "🤩", "🥳", "😏", "😒", "😞", "😔", "😟", "😕", "🙁", "😣", "😖", "😫", "😩", "🥺", "😢", "😭", "😤", "😠", "😡", "🤬", "🤯", "😳", "🥵", "🥶", "😱", "😨", "😰", "😥", "😓", "🤗", "🤔", "🤭", "🤫", "🤥", "😶", "😐", "😑", "😬", "🙄", "😯", "😦", "😧", "😮", "😲", "🥱", "😴", "🤤", "😪", "😵", "🤐", "🥴", "🤢", "🤮", "🤧", "😷", "🤒", "🤕", "🤑","😈","👋", "🤚", "🖐", "✋", "🖖", "👌", "🤏", "✌️", "🤞", "🤟", "🤘", "🤙", "👈", "👉", "👆", "🖕", "👇", "☝️", "👍", "👎", "✊", "👊", "🤛", "🤜", "👏", "🙌", "👐", "🤲", "🤝", "🙏", "✍️", "💪", "🦵", "🦶", "👂","💩"]
+    },
+    {
+      "img": "LomoBear_01.png", 
+      "type": "LomoBear", 
+      "data": ["01.png","02.png","03.png","04.png","05.png","06.png","07.png","08.png","09.png","10.png","11.png","12.png","13.png","14.png","15.png","16.png","17.png","18.png","19.png","20.png","21.png","22.png","23.png","24.png","25.png","26.png","27.png","28.png","29.png","30.png","31.png","32.png","33.png","34.png"]      
+    },
+    {
+      "img": "Fat-Bear_01.png", 
+      "type": "Fat-Bear", 
+      "data": ["01.png","02.png","03.png","04.png","05.png","06.png","07.png","08.png","09.png","10.png","11.png","12.png","13.png","14.png","15.png"]      
+    },
+    {
+      "img": "Love-cat_01.png", 
+      "type": "Love-cat", 
+      "data": ["01.png","02.png","03.png","04.png","05.png","06.png","07.png","08.png","09.png","10.png","11.png","12.png","13.png","14.png","15.png","16.png","17.png"]      
+    },
+    {
+      "img": "Lucy_01.png", 
+      "type": "Lucy", 
+      "data": ["01.png","02.png","03.png","04.png","05.png","06.png","07.png","08.png","09.png","10.png","11.png","12.png","13.png","14.png","15.png","16.png"]      
+    },
+    {
+      "img": "Unicorn_05.png", 
+      "type": "Unicorn", 
+      "data": ["01.png","02.png","03.png","04.png","05.png","06.png","07.png","08.png","09.png","10.png","11.png"]      
+    },
+    {
+      "img": "RainyDoll_Laugh.png", 
+      "type": "RainyDoll", 
+      "data": ["Angry.png","Cry.png","Cry2.png","Excited.png","Fighting.png","Hot.png","Laugh.png","Pleasant.png","Sad.png","Smile Wryly.png","Speechless.png","Super Angry.png"]
+    },
+    {
+      "img": "emoji_003-grinning.png", 
+      "type": "emoji", 
+      "data": ["001-happiness.png","002-smiling.png","003-grinning.png","004-laugh.png","005-smile.png","006-tear.png","007-cute.png","008-wink.png","009-shy.png","010-tongue out.png","011-cool.png","012-in love.png","013-kiss.png","014-happiness.png","015-famous.png","016-sad.png","017-sarcastic.png","018-happiness.png","019-jealous.png","020-sarcastic.png","021-confused.png","022-mute.png","023-thinking.png","024-smart.png","025-angry.png","026-confused.png","027-secret.png","028-astonished.png","029-surprised.png","030-sick.png","031-lonely.png","032-sleeping.png","033-satisfaction.png","034-happiness.png","035-tongue out.png","036-crazy.png","037-drool.png","038-crying.png","039-unhappy.png","040-shocked.png","041-money.png","042-surprised.png","043-yawn.png","044-nervous.png","045-waiting.png","046-sad.png","047-pain.png","048-angry.png","049-sad.png","050-crying.png"]
+    },
+    {
+      "img": "Starly_laugh.png", 
+      "type": "Starly", 
+      "data": ["angel.png", "laugh_tongue_out.png", "smile_eyes_closed.png", "angry.png", "love.png", "smile_eyes_open.png", "cry.png", "puke.png", "super_angry.png", "dilemma.png", "sad.png", "surprise.png", "eww.png", "sigh.png", "sweater.png", "kiss.png", "sleep.png", "tounge.png", "laugh.png", "smile.png", "wings.png", "wink.png"]
+    },
+    {
+      "img": "a1Tako_emo_big_1.png", 
+      "type": "a1Tako", 
+      "data": ["emo_big_1.png", "emo_big_13.png", "emo_big_2.png", "emo_big_6.png", "emo_big_10.png", "emo_big_14.png", "emo_big_3.png", "emo_big_7.png", "emo_big_11.png", "emo_big_15.png", "emo_big_4.png", "emo_big_8.png", "emo_big_12.png", "emo_big_16.png", "emo_big_5.png", "emo_big_9.png"]
+    },
+    {
+      "img": "Cuckoo_laugh.png", 
+      "type": "Cuckoo", 
+      "data": ["angry.png", "died.png", "pass_out.png", "sing.png", "boring.png", "laugh.png", "question.png", "sleep.png", "cool.png", "like_it.png", "run_away.png", "smile.png", "cry.png", "love.png", "sad.png", "surprise_what.png"]
+    },
+    {
+      "img": "Buffalo_01.png", 
+      "type": "Buffalo", 
+      "data": ["01.png","02.png","03.png","04.png","05.png","06.png","07.png","08.png","09.png","10.png","11.png","12.png","13.png","14.png","15.png"]
+    },
+    {
+      "img": "Unicorn-Tet_03.png", 
+      "type": "Unicorn-Tet", 
+      "data": ["01.png","02.png","03.png","04.png","05.png","06.png","07.png","08.png","09.png","10.png","11.png","12.png"]
+    },
+    {
+      "img": "Rainydoll-Tet_03.png", 
+      "type": "Rainydoll-Tet", 
+      "data": ["01.png","02.png","03.png","04.png","05.png","06.png","07.png","08.png","09.png","10.png","11.png","12.png"]
+    },
+    {
+      "img": "Husky-meme_03.png", 
+      "type": "Husky-meme", 
+      "data": ["01.png","02.png","03.png","04.png","05.png","06.png","07.png","08.png","09.png","10.png","11.png","12.png","13.png","14.png"]
+    }
+  ]
+}

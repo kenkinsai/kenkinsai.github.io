@@ -1,0 +1,117 @@
+.option-custom {
+  position: relative;
+}
+
+.select-input {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  /*border: 1px solid #ccc;*/
+  padding: 0 10px;
+  position: relative;
+  height: 42px;
+}
+
+.select-input--multiple {
+  height: auto;
+  min-height: 42px;
+  flex-wrap: wrap;
+}
+
+.select-click {
+  flex: 1;
+  height: 42px;
+}
+
+.select-input::before {
+  position: absolute;
+  content: '';
+  right: 8px;
+  top: 18px;
+  border-top: 5px solid #252525;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+}
+
+.select-icon {
+  font-size: 20px;
+  margin-right: 37px;
+  color: #84ce3f;
+  flex-basis: 30px;
+  width: 20px;
+  position: relative;
+}
+
+.select-logo-country {
+  width: 100%;
+}
+
+.select-title {
+  color: #252525;
+  width: 175px;
+}
+
+.select-title.placeholder {
+  color: #ccc;
+}
+
+.select-country-code {
+  position: absolute;
+  right: 15px;
+}
+
+.select-list {
+  border: 1px solid #ccc;
+  border-top: none;
+  height: 340px;
+  position: fixed;
+  background: #fff;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  z-index: 1;
+  overflow-y: auto;
+  border-radius: 5px;
+}
+
+.search-list-country {
+  padding: 15px 8px 10px;
+}
+
+.search-list-country input {
+  font-size: 14px;
+}
+
+.search-list-country input:focus{
+  outline: none;
+}
+
+.select-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.select-item:hover {
+  background: #eee;
+}
+
+.selected-list {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 42px;
+  width: 100%;
+}
+
+.selected-item {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  margin: 5px;
+}
+
+.selected-item span {
+  margin-right: 5px;
+}

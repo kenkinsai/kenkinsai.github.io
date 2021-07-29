@@ -1,0 +1,103 @@
+.rxsideactive_back {
+  display: none;
+}
+
+@media (max-width:767px) {
+  .slide__next {
+    display: none;
+  }
+
+  .slide__back {
+    display: none;
+  }
+
+  .slide__itemimg {
+    display: none;
+  }
+
+  .beside {
+    display: none;
+    overflow: hidden;
+  }
+
+  .beside.rxsideactive {
+    display: block;
+    z-index: 1000;
+  }
+
+  .rxsideactive_back {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    left: 0px;
+    top: 0px;
+    z-index: 999;
+  }
+
+  .bemain {
+    padding-left: 0px;
+  }
+
+  .bemain__wrap {
+    padding: 0px;
+  }
+
+  .betable__main {
+    overflow: auto;
+  }
+
+  .adtopbar {
+    position: fixed;
+  }
+
+  .adtopbar__togglesidebar {
+    left: 75px;
+  }
+
+  .adminnav__logoimgdesktop {
+    display: none;
+  }
+
+  .adminnav__logoimg {
+    float: left;
+    cursor: pointer;
+    height: 60px;
+    padding: 2px;
+    width: 70px;
+    display: block;
+    object-fit: cover;
+    object-position: left;
+    background-color: transparent;
+  }
+
+  .homenav__left {
+    display: none;
+  }
+
+  .slide__itemgif {
+    display: none;
+  }
+
+  .adform__body {
+    padding: 20px;
+  }
+
+  .adform__body>div {
+    width: 100%;
+  }
+
+  .adtopbar__right>.adminnav__avatar {
+    margin-right: 15px;
+  }
+
+  .adblock__body {
+    padding: 30px 15px;
+  }
+
+  .adblock__head {
+    padding: 1px 30px;
+  }
+
+}

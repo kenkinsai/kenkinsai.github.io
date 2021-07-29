@@ -1,0 +1,36 @@
+/*.box-upload-wrap:hover .box-upload {
+  display: block;
+}*/
+
+.box-upload {
+  width: 172px;
+  height: 85px;
+  position: absolute;
+  bottom: 50px;
+  left: 6px;
+  border-radius: 5px;
+  z-index: 11;
+  display: none;
+}
+
+.type-upload {
+  padding: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 13px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.type-upload-icon {
+  font-size: 20px;
+  padding-right: 10px;
+  position: relative;  
+}
+
+.icon-option-upload {
+  font-size: 28px;
+  cursor: pointer;
+  color: #f67d46;
+}

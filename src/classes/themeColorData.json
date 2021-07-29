@@ -1,0 +1,49 @@
+{
+  "orangeColor": 
+  { 
+    "default":
+    {
+      "theme_color" : "#f5783f",
+      "theme_icon_color" : "#f5783f",
+      "theme_doc_icon_color" : "#f5783e",
+      "theme_background_forward_color":"#fde4da",
+      "login_button_color": "#f5783f",
+      "login_logo_color": "#f5783f" ,
+      "theme_filter_color":"none"
+    },
+    "galo":
+    {
+      "theme_color" : "#48AAA0",
+      "theme_icon_color" : "#48AAA0",
+      "theme_doc_icon_color" : "#48AAA0",
+      "theme_background_forward_color":"#ebfcff",     
+      "login_button_color": "#48AAA0",      
+      "login_logo_color": "#fff",
+      "theme_filter_color":"hue-rotate(174deg) saturate(72%) brightness(102%)"   
+    }    
+  },
+  "blueColor":
+  {
+    "default":{
+      "theme_color" : "#2196F3",
+      "theme_icon_color" : "#1684fc",
+      "theme_doc_icon_color" : "#1684fb",
+      "theme_background_forward_color":"#ebf8ff",
+      "login_button_color": "#f5783f",
+      "login_logo_color": "#f5783f",
+      "theme_filter_color":"hue-rotate(219deg) saturate(350.42%) brightness(100.29%)"   
+
+    },
+    "galo":
+    {      
+      "theme_color" : "#2196F3",
+      "theme_icon_color" : "#1684fc",
+      "theme_doc_icon_color" : "#1684fb",
+      "theme_background_forward_color":"#ebf8ff",      
+      "login_button_color": "#48AAA0",
+      "login_logo_color": "#fff",
+      "theme_filter_color":"hue-rotate(174deg) saturate(72%) brightness(102%)"   
+    }
+  }
+
+}

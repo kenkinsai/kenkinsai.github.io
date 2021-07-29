@@ -1,0 +1,135 @@
+/* pin modal */
+.mtheme{
+
+  background-color: var(--theme-color_background);
+  color: var(--theme-color-text);
+}
+.lastpin{
+  padding-top: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 300px;
+}
+.avatarClick_title_place.modal{
+  line-height: initial;
+  border-bottom: solid 1px var(--theme-border-color);
+  height: 60px;
+}
+.avatarClick_title.modal{
+  padding: 20px;
+}
+.sortableHelper {
+  z-index: 9999;
+}
+.ztbar_name.pmodal{
+  padding: 10px 20px 5px;
+  cursor: pointer;
+}
+.rodal-pin div.ztbar_avatar_header{
+  margin-left: 10px;
+  font-size: large;
+  margin-top: unset;
+}
+.rodal-pin div.avatarClick_rectangle_2_1{
+  height: 565px; 
+  width: 500px;
+}
+.rodal-pin div.ztab-more-user_status{
+  text-align: inherit;
+}
+.rodal-pin div.ztbar_name.modal{
+  padding-left: 25px;
+  padding-top: 10px;
+  float: left;
+  white-space: pre;
+/*  font-style: oblique;
+  font-family: 'SFProDisplayRegular';
+  font-weight: 200;
+  overflow: hidden;
+  display: inline-block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: -webkit-fill-available;*/
+}
+.rodal-pin div.ztbar_right.ztbar_btn.ztbar_btnmore{
+  padding-top: 8px
+}
+.rodal-pin div.ztbar_status{
+  padding-left: unset;
+  display: flex;
+}
+.zchat_body.mtheme{
+  padding-top: 10px;
+}
+.zchat_body-active.mtheme, .zchat_body.mtheme{
+  position:relative
+}
+.rodal-dialog{
+  width: 500px !important;
+  height: fit-content !important;
+  background-color: var(--theme-color_background) !important;
+  color: var(--theme-color-text) !important;
+  padding-bottom: unset !important;
+}
+.rodal-body{
+  overflow-y: scroll;
+  height: 420px;
+}
+.rodal-body div.another_message_box,.rodal-body div.message-reply_content,
+.rodal-body div.zmessage-reply-anwser,.rodal-body div.message-reply_content_right,
+.rodal-body div.zmessage_text.my_message{
+  max-width: 400px;
+}
+.rodal-body div.zmessage_text{
+  margin-right: 0px;
+}
+.rodal-pin div.ztbar{
+  height: 40px;
+  margin-top: 50px;
+  cursor: pointer;
+  display: flex;
+  z-index: 1;
+  padding-left: unset;
+  border-left: solid 3px var(--theme-color);
+}
+
+.rodal-pin div.ztbar_left{
+/*  max-width: -webkit-fill-available;
+  height: 35px;
+  margin-right:40px;
+  width: 140px;*/
+  padding-left: 30px;
+  width :100%;
+}
+.rodal-footer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-top: solid 1px var(--theme-border-color);
+  padding: 8px;
+}
+.zmessage_text.my_message.cbtn{
+  margin-top: unset;
+  cursor: pointer;
+}
+.lastpin div.zchat-textmess  {
+  max-width: 200px;
+  width: auto;
+  overflow: hidden;
+  display: inline-block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-top: 10px;
+  padding-left: 2px;
+}
+.lastpin img.img-message{
+  max-height: 20px;
+  margin: 5px;
+  pointer-events: none;
+}
+.lastpin video{
+  max-height: 20px;
+  width: 15px;
+  margin: 2px;
+}

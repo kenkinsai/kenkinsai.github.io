@@ -1,0 +1,27 @@
+.searchbox_contactlist {
+  overflow-y: auto;
+  padding-bottom: 360px;
+  overflow-x: hidden;
+  bottom: 0px;
+  height: 100%;
+}
+.searchbox_contain{
+  bottom: 0px;
+  height: 100%;
+}
+.searchbox_contain_hiden{
+	display: none;
+}
+
+.searchbox-group-title {
+  width: 115px;
+  height: 11px;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 2.4;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #959595;
+  text-indent: 12px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,126 @@
+.zmodal-addfriend {
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.zmodal-addfriend-content {
+  background-color: var(--theme-color_background);
+  margin: auto;
+  width: 340px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  position: relative;
+  padding-bottom: 30px;
+}
+.zmodal-header{
+  margin-top: 22px;
+  color: var(--theme-color-text-light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zmodal-title {
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+.zmodal-close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.zmodal-div-imguser {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: #f0f4f5;
+  margin-top: 40px;
+  margin-bottom: 34px;
+}
+
+.zmodal-fill {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 50px;
+}
+
+.zmodal-input {
+  border-width: 0px;
+  border-bottom: 1px solid var(--theme-border-color);
+  color: var(--theme-icon_color);
+  background-color: var(--theme-color_background);
+  height: 35px;
+  font-size: 16px;
+  text-align: inherit;
+  margin-top: 12px;
+  margin-bottom: 27px;
+  justify-content: flex-start;
+  outline: #fff;
+  outline-offset: 0px;
+  outline-color: #fff;
+  outline-width: 0px;
+  padding-left: 0px;
+  border-radius: 0px;
+  width: 100%;
+}
+
+.zmodal-input:focus {
+  border-right-width: 0px !important;
+  border-color: #bdbdbe;
+  box-shadow: none;
+}
+
+.zmodal-input:hover {
+  border-right-width: 0px !important;
+  border-color: #bdbdbe;
+}
+
+.zmodal-input-phone {
+  color: #f5783f;
+}
+
+.zmodal-txt {
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: var(--theme-color-text-light);
+}
+
+.zmodal-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 295px;
+  height: 44px;
+  border-radius: 5px;
+  margin-top: 3px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.zmodal-btn-txt {
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}

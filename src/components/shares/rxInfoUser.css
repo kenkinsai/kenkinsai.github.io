@@ -1,0 +1,427 @@
+.avatarClick_rectangle {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+}
+.avatarClick_rectangle_hiden {
+  display: none;
+}
+.avatarClick_rectangle_1 {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: black;
+  opacity: 0.2;
+}
+
+.avatarClick_rectangle_2 {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  top: 0px;
+}
+.avatarClick_rectangle_2_1 {
+  margin: auto;
+  position: relative;
+  top: 50%;
+  width: 375px;
+  height: 546px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  transform: translateY(-50%);
+}
+.avatarClick_title_place {
+  font-size: 18px;
+  position: relative;
+}
+.avatarClick_title {
+  text-align: center;
+  padding-top: 25px;
+}
+.avatarClick_closeIcon {
+  top: 20px;
+  right: 20px;
+  position: absolute;
+}
+.avatarClick_userName {
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.avatarClick_userStatus {
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #959595;
+}
+.ztab-icon-act {
+  margin-left: 18px;
+  cursor: pointer;
+}
+.avatarClick_avatarPlace {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  position: relative;
+}
+.avatarClick_avatar img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.avatarClick_avatar span {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  line-height: 100px;
+  font-size: 24px;
+}
+
+.avatarClick_avatar-sender {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  line-height: 103px;
+  border-radius: 50%;
+  font-size: 47px;
+  font-weight: 600;
+  color: #fffafa;
+  left: 0px;
+}
+.avatarClick_ava-useravatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  /*background: #eef6f8;*/
+  object-fit: cover;
+}
+.avatarClick_item {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 12px;
+  height: 40px;
+  position: relative;
+}
+.avatarClick_phone_place {
+  margin-left: 6px;
+  padding-left: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.avatarClick_info_phone {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+}
+.avatarClick_info_act {
+  display: flex;
+  align-items: center;
+}
+.avatarClick_phoneNumber {
+  font-size: 14px;
+  padding-top: 3px;
+  padding-bottom: 10px;
+}
+.avatarClick_body {
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.avatarClick_icon {
+  width: 20px;
+  height: 20px;
+}
+.avatarClick_item_name {
+  position: absolute;
+  top: 14px;
+  left: 45px;
+  width: 86%;
+  padding-bottom: 10px;
+}
+.avatarClick_addContact {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.avatarClick_footer {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  position: absolute;
+}
+.avatarClick_footer_item {
+  float: left;
+  width: 125px;
+  text-align: center;
+}
+
+.avatarClick_infophone {
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 22px;
+}
+
+.avatarClick_infophone div {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 25px;
+  font-size: 16px;
+  border-bottom: 1px solid #eee;
+}
+
+/* info user */
+.currentuser_document-list {
+  display: inline-block;
+  padding-left: 14px;
+  position: relative;
+  overflow-y: scroll;
+  height: 160px;
+  width: 100%;
+  padding-bottom: 180px;
+}
+.currentuser_document-item {
+  height: 65px;
+  width: 65px;
+  background-color: #edf0f1;
+  margin-right: 3px;
+  margin-bottom: 3px;
+  position: relative;
+  float: left;
+  left: 27px;
+}
+.icon_talk {
+  height: 40px;
+  width: 40px;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+}
+.icon_messenger {
+  margin-left: 22px;
+}
+.icon_call {
+  margin-left: 70px;
+}
+.icon_videocall {
+  margin-left: 70px;
+  height: 26px !important;
+}
+
+.newManager_info-user {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  margin-bottom: -1px;
+  border-bottom: solid 1px;
+  height: 300px;
+}
+.info_user_head-title {
+  position: relative;
+  width: 375px;
+  font-size: 18px;
+}
+.info_user_title {
+  padding-left: 25px;
+  font-size: 18px;
+}
+.close_icon_info_user {
+  position: absolute;
+  top: 0px;
+  right: 5px;
+}
+.icon_close {
+  width: 24px;
+  height: 21px;
+  object-fit: contain;
+}
+.avatar_current_user {
+  position: relative;
+  top: 30px;
+  left: 45px;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 28px;
+  color: #fff;
+  line-height: 100px;
+}
+.current_name_user {
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+.info_user-status {
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #959595;
+  position: relative;
+  top: 30px;
+}
+
+.info_user-menu-right {
+  width: 50px;
+  float: left;
+  position: relative;
+  left: 9px;
+}
+.icon_close-info-user {
+  width: 24px;
+  height: 21px;
+  object-fit: contain;
+}
+.info_user-menu-right:after {
+  content: "\2807";
+  font-size: 27px;
+  line-height: 21px;
+}
+.info_user-call-icon {
+  float: left;
+  position: relative;
+  right: 16px;
+  top: -7px;
+  height: 33px;
+}
+.info_user_2_1 {
+  margin: auto;
+  width: 390px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+  position: relative;
+  top: 15%;
+  background-color: var(--theme-color_background);
+}
+.name_status_user {
+  height: 49px;
+  position: relative;
+  top: -25px;
+  left: 115px;
+}
+.line_under_avatar-name {
+  margin-top: 10px;
+  border-top: solid 8px;
+  width: 100%;
+}
+.name_title {
+  font-size: 18px;
+  font-weight: 600;
+}
+.status_user {
+  font-size: 14px;
+  padding-top: 15px;
+}
+.username_addcontact {
+  height: 120px;
+  padding-left: 80px;
+}
+.username {
+  padding-top: 20px;
+}
+.user_name_title {
+  font-size: 14px;
+}
+.user_name_noti {
+  padding-top: 10px;
+  font-size: 14px;
+}
+.add_contact {
+  padding-top: 20px;
+  font-size: 14px;
+}
+.line_under_username {
+  margin-left: 80px;
+  margin-top: 10px;
+  border-top: solid 1px;
+  width: 310px;
+}
+.notification_sendmessage {
+  height: 118px;
+  /* padding-left: 80px;
+  padding-top: 32px; */
+}
+.title_notifications {
+  font-size: 14px;
+  padding-top: 20px;
+}
+.bell_notification {
+  width: 22px;
+  height: 28px;
+  position: relative;
+  top: 21px;
+  left: 25px;
+}
+.notifications {
+  height: 49px;
+  position: relative;
+  top: -25px;
+  left: 80px;
+}
+.mode_notifications {
+  font-size: 14px;
+  padding-top: 32px;
+}
+.ava_current_user {
+  width: 75px;
+  height: 75px;
+  border-radius: 50px;
+  object-fit: cover;
+  position: relative;
+  top: 40px;
+  left: 20px;
+}
+.delete_message {
+  height: 120px;
+  /* padding-left: 80px; */
+}
+.list_delete_clear {
+  width: 22px;
+  height: 28px;
+  position: relative;
+  top: 21px;
+  left: 25px;
+}
+.history_chat {
+  height: 49px;
+  position: relative;
+  top: -25px;
+  left: 80px;
+}
+.clear_history {
+  padding-top: 20px;
+  font-size: 14px;
+}
+.delete_chat {
+  padding-top: 30px;
+  font-size: 14px;
+}
+/* end info user */

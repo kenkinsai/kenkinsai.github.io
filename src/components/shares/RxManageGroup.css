@@ -1,0 +1,1037 @@
+.zchat_mangagerscreen {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 12;
+}
+
+.zchat_callscreen_bg {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: #000;
+  opacity: 0.5;
+}
+
+.zchat_callscreen_main {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.zchattab_body .gl-prev,
+.gl-next {
+  /*padding-top: 0px !important*/
+}
+
+.zchat_mangagercenter {
+  width: 400px;
+  height: 720px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  /* background: #fff; */
+  box-shadow: 0 0 10px 0 rgb(0 0 0/10%);
+  padding: 20px;
+  border-radius: 10px;
+  overflow-y: auto;
+  /* background-color: var(--theme-color_background); */
+  /* visibility: hidden; */
+}
+
+img.zchat_mangagercenter_close {
+  width: 20px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.newManager_ztab-more-user {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  margin-bottom: -1px;
+  border-bottom: solid 1px;
+}
+
+.edit-img-user_manage_group {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  /*margin-left: 100px;*/
+  margin: 0px auto;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.account-ava-group {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: absolute;
+  object-fit: cover;
+}
+
+.zmore-btn-edit_groupAcount {
+  /*  width: 98px;
+  text-align: right;*/
+  position: absolute;
+  right: 20px;
+}
+
+.zmore-txt-edit_manage_group {
+  font-size: 13px;
+  cursor: pointer;
+  padding-right: 16px;
+  display: block;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+}
+
+.ztab-more-user_status {
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #959595;
+  height: 30px;
+}
+
+.newManager_dropList_icon {
+  float: right;
+  padding-right: 16px;
+}
+
+.newManager_dropList_title {
+  width: 270px;
+  float: left;
+  font-size: 14px;
+  height: 26px;
+  padding-left: 16px;
+  cursor: pointer;
+}
+
+.newManager_dropList_icon {
+  float: right;
+  padding-right: 16px;
+  cursor: pointer;
+  height: 30px;
+}
+
+.className_hiden {
+  display: none;
+}
+
+.ztab-more-info_phone {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+}
+
+.ztab-more-info_phone-txt {
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #666769;
+  margin-top: 16px;
+  margin-bottom: 3px;
+}
+
+.ztab-more-info_phone_number_user {
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  margin-bottom: 13px;
+}
+
+.newManager_contactlist_hiden {
+  display: none;
+}
+
+.newManager_contactlist {
+  max-height: 200px;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.newManager_contactlist::-webkit-scrollbar {
+  display: none;
+}
+
+.newManager_contactlist div.newManager_zgroupitem-contact.clearfix:hover {
+  background-color: var(--theme-color_background_active);
+}
+
+.newManager_contactlist
+  div.zgroup_maininfo-contact.edit:hover
+  > div.remove_member {
+  display: block;
+}
+
+.newManager_contactlist div.remove_member:hover {
+  border: solid 1px var(--theme-border-color);
+  background-color: var(--theme-icon_color);
+  color: var(--theme-border-color);
+}
+
+.newManager_avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  float: left;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.newManager_userinfo_place {
+  line-height: 40px;
+  position: absolute;
+  margin-left: 15px;
+  font-size: 14px;
+  color: var(--theme-color-text);
+}
+
+.newManager_leader_hiden {
+  display: none;
+}
+
+.zgroup_maininfo-contactedit {
+  height: 40px;
+  padding-left: 40px;
+  cursor: pointer;
+}
+/* .zgroup_maininfo-contact {
+  height: 40px;
+  padding-left: 40px;
+  cursor: pointer;
+} */
+
+.newManager_user_online {
+  top: 20px;
+  right: 15px;
+  position: absolute;
+  font-size: 10px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #959595;
+}
+
+.newManager_user_hiden {
+  display: none;
+}
+
+.ztab-add-member_hiden {
+  display: none;
+}
+
+/* ADD MEMBER */
+.zact-add_manage_group {
+  height: 43px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: 1px;
+  padding-left: 16px;
+  border-top: solid 1px var(--theme-border-color);
+  /* border-bottom: solid 1px var(--theme-border-color); */
+  color: #fff;
+  background-color: var(--theme-color_background);
+  position: relative;
+}
+
+.zact-add_manage_group_noti {
+  height: 43px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: 1px;
+  padding-left: 16px;
+  /*border-top: solid 1px var(--theme-border-color);*/
+  /* border-bottom: solid 1px var(--theme-border-color); */
+  color: #fff;
+  background-color: var(--theme-color_background);
+  position: relative;
+}
+
+.zact-add_manage_group_noti div.manage_group_noti_mode {
+  position: absolute;
+  right: 14px;
+  top: 12px;
+}
+
+.zact-add-member {
+  font-size: 14px;
+  text-align: left;
+  margin-left: 3px;
+  cursor: pointer;
+}
+
+.zact-add-member_hiden {
+  display: none;
+}
+
+.group_manage_allow_noti {
+  font-size: 14px;
+  text-align: left;
+  margin-left: 3px;
+  cursor: pointer;
+}
+
+/* END new */
+
+div.zchat_mangagercenter .gl-next {
+  padding-top: 0px !important;
+}
+
+div.zchat_mangagercenter .gl-prev {
+  padding-top: 0px !important;
+}
+
+.chooseLeader_okBtn_area {
+  width: 100px;
+  height: 60px;
+  padding: 10px;
+  position: relative;
+  margin: 10px auto;
+}
+
+.chooseLeader_okBtn {
+  text-align: center;
+  width: 110px;
+  margin: 0px auto;
+  position: absolute;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 600;
+}
+
+.ztab-more-user {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.edit-img-user div.icon-camera {
+  z-index: 9;
+  font-size: x-large;
+}
+
+.edit-img-user div.icon-camera:empty::before {
+  color: white;
+}
+
+.edit-img-user img.images-static.edit,
+.edit-img-user span.account-ava-span.edit {
+  filter: brightness(50%);
+  width: 102%;
+  height: 102%;
+}
+
+.edit_rectangle_1 span.account-ava-span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 28px;
+  color: #fff;
+  line-height: 100px;
+}
+
+.edit_group_manage span.account-ava-span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 28px;
+  color: #fff;
+  line-height: 100px;
+}
+
+.ztab-more-info_act {
+  display: flex;
+  align-items: center;
+}
+
+.icon-act {
+  margin-left: 15px;
+}
+
+.ztab-more-act_hiden {
+  display: none;
+}
+
+.zact {
+  height: 43px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: 1px;
+  padding-left: 16px;
+}
+
+.zact_hiden {
+  display: none;
+}
+
+/* .zact-txt {
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  margin-left: 10px;
+  color: #25272a;
+} */
+
+.zact-block-contact_hiden {
+  display: none;
+}
+
+.zact-leave-group {
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #d31027;
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.zact-leave-group_hiden {
+  display: none;
+}
+
+.zdocument-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+}
+
+.zdocument-header-txt {
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #959595;
+  cursor: pointer;
+}
+
+.zdocument-list {
+  display: inline-block;
+  padding-left: 14px;
+  position: relative;
+  overflow-y: scroll;
+  height: 200px;
+  width: 100%;
+  padding-bottom: 300px;
+}
+
+.zdoc-item {
+  width: 65px;
+  height: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+}
+
+.zvideo-list {
+  position: relative;
+  width: 65px;
+  height: 65px;
+}
+
+img.zvideo-item {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  border-radius: 5px;
+}
+
+.zvideo-item-play {
+  position: absolute;
+  width: 65px;
+}
+
+.zvideo-item-play img {
+  display: block;
+  margin: 20px auto;
+  width: 25px;
+  height: 25px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.zicon-doc span {
+  width: 65px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 45px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+}
+
+.zicon-name {
+  width: 65px;
+  height: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.edit_group_manage_area {
+  width: 400px;
+  height: 720px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  max-width: 100%;
+  max-height: 100%;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+  z-index: 1000;
+  border-radius: 20px;
+}
+
+.edit_group_manage_area_hiden {
+  display: none;
+}
+
+/* .edit_group_manage {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  z-index: 1;
+} */
+
+.rxAccount_group_name_place {
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+
+.rxAccount_group_name_input {
+  border: none;
+  padding-left: 16px;
+  font-size: 14px;
+}
+
+.rxAccount_group_name_input::placeholder {
+  opacity: 1;
+}
+
+.rxAccount_group_name_input:focus {
+  box-shadow: none;
+}
+
+.rxAccount_group_name_title {
+  padding-left: 16px;
+  font-size: 14px;
+  color: var(--theme-color-text);
+}
+
+.edit_divider_manage_group {
+  width: 365px;
+  height: 1px;
+  object-fit: contain;
+  vertical-align: text-top;
+  margin-left: 16px;
+  background-color: var(--theme-border-color);
+}
+
+.group_divider_choose_leader {
+  width: 333px;
+  height: 1px;
+  object-fit: contain;
+  vertical-align: middle;
+  margin-left: 52px;
+  margin-top: 7px;
+}
+
+.add_new_group_leader_area {
+  /* position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 1000; */
+
+  width: 400px;
+  height: 720px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+  z-index: 1001;
+}
+
+.add_new_group_leader_area_hiden {
+  display: none;
+}
+
+.add_new_group_leader {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  /* width: 300px;
+  height: 100%;
+  position: relative;
+  flex-direction: column;
+  margin-bottom: 1px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  top: 48px;
+  display: block;
+  float: right; */
+}
+
+.newManager_btn_close {
+  float: right;
+  width: 28px;
+  text-align: right;
+  padding-right: 16px;
+}
+
+.rxAccount_btn_newManager {
+  padding-left: 16px;
+  font-size: 14px;
+  cursor: pointer;
+  color: var(--theme-color-text);
+}
+
+.rxAccount_btn_newManager_hiden {
+  display: none;
+}
+
+.selectManager_contactlist {
+  /*background-color: #fff;*/
+  max-height: 340px;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.selectManager_contactlist::-webkit-scrollbar {
+  display: none;
+}
+
+.container101 {
+  display: block;
+  position: relative;
+  padding-left: 27px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.container101 .checkmark1 {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  /* border: solid; */
+  border-width: 0.1px 0.1px;
+}
+
+.container101:hover .checkmark1 ~ .checkmark {
+  /* border: solid;
+  border-width: 0.1px 0.1px; */
+  border-color: #d8e0e3;
+}
+
+.container101 .checkmark1:checked ~ .checkmark {
+  /* border: solid; */
+  border-width: 0.1px 0.1px;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container101 .checkmark1:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container101 .checkmark:after {
+  left: 9px;
+  top: 4px;
+  width: 6px;
+  height: 11px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.container101 .checkmark:after {
+  left: 9px;
+  top: 4px;
+  width: 6px;
+  height: 11px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.container101 .checkmark_leader {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.container101:hover .checkmark1 ~ .checkmark {
+  /*border: solid;*/
+  border-width: 0.1px 0.1px;
+  /*border-color: #d8e0e3;*/
+}
+
+.container101 .checkmark1:checked ~ .checkmark {
+  /*border: solid;*/
+}
+
+.checkmark_choose_leader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  /* border: solid; */
+  border-width: 0.1px 0.1px;
+}
+
+.container101:hover .checkmark_leader ~ .checkmark_choose_leader {
+  /* border: solid;
+  border-width: 0.1px 0.1px; */
+}
+
+.container101 .checkmark_leader:checked ~ .checkmark_choose_leader {
+  /* border: solid; */
+  border-width: 0.1px 0.1px;
+}
+
+.checkmark_choose_leader:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container101 .checkmark_leader:checked ~ .checkmark_choose_leader:after {
+  display: block;
+}
+
+.container101 .checkmark_choose_leader:after {
+  left: 9px;
+  top: 4px;
+  width: 6px;
+  height: 11px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.newManager_checked {
+  float: right;
+  padding-top: 9px;
+}
+
+.newManager_zgroupitem-contact {
+  width: 100%;
+  height: 56px;
+  padding: 7px 15px;
+  position: relative;
+}
+
+.leaveGroup_rectangle {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 1001;
+}
+.leaveGroup_rectangle_hiden {
+  display: none;
+}
+.leaveGroup_rectangle_1 {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: black;
+  opacity: 0.2;
+}
+
+.leaveGroup_rectangle_2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+}
+.leaveGroup_rectangle_2_1 {
+  margin: auto;
+  width: 370px;
+  height: 175px;
+  top: 30%;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+.leaveGroup_rectangle_2_1_hiden {
+  display: none;
+}
+
+.leaveGroup_title {
+  text-align: center;
+  font-size: 17px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.leaveGroup_cancelBtn {
+  padding-top: 7px;
+  margin-left: 70px;
+  margin-right: 15px;
+  float: left;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #d8e0e3;
+  color: #000000;
+  cursor: pointer;
+}
+
+.leaveGroup_okBtn {
+  padding-top: 7px;
+  margin-left: 15px;
+  margin-right: 70px;
+  float: left;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.leaveGroup_btnPlace {
+  margin-top: 20px;
+}
+
+.ztab-more-user_txtname {
+  padding-left: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  text-align: center;
+  overflow: hidden;
+  margin-right: 10px;
+  text-overflow: ellipsis;
+}
+
+/* start edit manage group */
+.manage_group-edit-txt-done {
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  display: block;
+  position: relative;
+  left: 166px;
+  color: var(--theme-color-text);
+}
+
+.rxAccount-edit-btn-done {
+  width: 98px;
+  text-align: right;
+  position: relative;
+  left: 85px;
+}
+
+.edit-img-manage-group {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin-left: 28px;
+  margin-top: 22px;
+  position: relative;
+  display: flex;
+  flex-direction: initial;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.edit-img-manage-group div.icon-camera {
+  z-index: 9;
+  font-size: x-large;
+}
+
+.edit-img-manage-group div.icon-camera:empty::before {
+  color: white;
+}
+
+.edit-img-manage-groupr img.images-static.edit,
+.edit-img-manage-group span.account-ava-span.edit {
+  filter: brightness(50%);
+  width: 102%;
+  height: 102%;
+}
+/* end edit manage group */
+
+.create_a_group_chat {
+  font-size: 14px;
+  text-align: left;
+  margin-left: 3px;
+  cursor: pointer;
+}
+
+/* Manage group - Create User - Block user */
+/* Create User */
+.tab_create_group_chat_hiden {
+  display: none;
+}
+
+.tab_create_group_chat_area {
+  height: 43px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: 1px;
+  padding-left: 16px;
+  color: #fff;
+  position: relative;
+}
+
+.tab_create_group_chat_main {
+  font-size: 14px;
+  text-align: left;
+  margin-left: 3px;
+  cursor: pointer;
+}
+
+.create_group_group_manage_close_area {
+  padding-top: 9.35px;
+  padding-right: 5px;
+  height: 30px;
+  border-radius: 0px 6px 6px 0px;
+  margin-right: 12px;
+}
+
+/* Block user */
+.group_manage_block_user {
+  font-size: 14px;
+  text-align: left;
+  margin-left: 3px;
+  cursor: pointer;
+  height: 43px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: 1px;
+  padding-left: 16px;
+  border-top: solid 1px var(--theme-border-color);
+  background-color: var(--theme-color_background);
+  position: relative;
+}
+
+.group_manage_block_user .block-user-wrapper {
+  margin-left: unset;
+  padding-top: unset;
+}
+/* END - Manage group - Block user */

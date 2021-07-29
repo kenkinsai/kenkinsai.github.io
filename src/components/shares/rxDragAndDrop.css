@@ -1,0 +1,171 @@
+.zchat-dragging-contain{
+  z-index: 8;
+}
+.zchat-dragging-contain_1{
+	border: dashed grey 4px;
+  background-color: rgba(255,255,255,.8);
+  position: absolute;
+  top: 50px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.zchat-dragging-body{
+	position: absolute;
+	top: 50%;
+	right: 0;
+	left: 0;
+	text-align: center;
+	color: grey;
+	font-size: 36px;
+}
+.zchat-drop-playicon{
+  width: 20px;
+  height: 20px;
+  top: 22px;
+  left: 18px;
+  position: absolute;
+}
+.zchat-drop_rectangle {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 1001;
+}
+.zchat-drop_rectangle_1 {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: black;
+    opacity: 0.2;
+}
+.zchat-drop_rectangle_2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+}
+.zchat-drop_rectangle_2_1 {
+  margin: auto;
+  width: 370px;
+  /*height: 175px;*/
+  /*top: 30%;*/
+  top: 50%;       
+  transform: translateY(-50%);
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+}
+.chat-drop-fileList{
+  width:100%;
+}
+.zchat-drop-fileItem{
+  position: relative;
+  width: 100%;
+  padding-bottom: 10px;
+}
+.zchat-drop-fileName{
+  position: absolute;
+  height: 19px;
+  max-width: 180px;
+  padding-top: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.zchat-drop-fileImage{
+  object-fit: cover;
+  width: 55px;
+  height: 55px;
+  /* border-radius: 5px; */
+  position: absolute;
+  display: flex;
+  margin-top: 6px;
+
+}
+.zchat-drop-filedocIcon{
+  object-fit: cover;
+  width: 50px;
+  height: 50px;
+  /* border-radius: 5px; */
+  position: absolute;
+  display: flex;
+  margin-top: 15px;
+  margin-left: 10px;
+
+}
+.zchat-drop-fileInfo{
+  height: 70px;
+  padding-left: 70px;
+  padding-top: 18px;
+}
+.zchat-drop-icon{
+  cursor: pointer;
+  position: absolute;
+  /*right: 0px;*/
+  top: 16px;
+}
+.file-edit-icon{
+  right: 55px;
+}
+.file-delete-icon{
+  right: 22px;
+  padding-top: 2px;
+}
+.zchat-drop-fileList{
+  padding-left: 20px;
+  max-height: 300px;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.icon24{
+  width: 24px;
+  height:24px;
+}
+.zchat-drop-title{
+  font-size: 16px;
+  padding-left: 20px;
+  padding-top: 25px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.zchat-drop-filesize{
+  position: absolute;
+  top:40px;
+  font-size: 12px;
+  color: #666769;
+
+}
+.zchat-drop-fileList::-webkit-scrollbar {
+  display: none;
+}
+.zchat-drop-footer{
+  padding-top: 16px;
+  padding-bottom: 20px;
+  height: 70px;
+  margin-left : 43px;
+}
+.zchat-drop-btn{
+  text-align: center;
+  width: 132px;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 600;
+  float: left;
+  margin-right: 20px;
+}
+.zchat-drop-divider{
+  height: 62px;
+
+  /*transform: rotateX(45deg);*/
+}

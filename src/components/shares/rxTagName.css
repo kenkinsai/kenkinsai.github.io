@@ -1,0 +1,97 @@
+.box-tagName {
+  width: 280px;
+  max-height: 326px;
+  min-height: 30px;
+  position: absolute;
+  bottom: 50px;
+  left: 175px;
+  border-radius: 10px;
+  z-index: 11;
+  -ms-overflow-style: none; 
+  scrollbar-width: none;  
+}
+.box-tagName ::-webkit-scrollbar {
+  display: none;
+}
+.tagName_List{
+  max-height: 296px;
+  min-height: 30px;
+  border-radius: 10px;
+  overflow: scroll;
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+.tagName_List_avatar{
+  display: flex;
+  width: fit-content;
+  position: relative;
+}
+.tagName_List_avatar img[alt]:after {
+  position: unset !important;
+}
+.tagName_List_name{
+  padding-top: 12px;
+  margin-left: 40px;
+  padding-bottom: 10px;
+  font-size: 13px;
+}
+.tagName_List_ava-span {
+  position: absolute;
+  margin-top: 5px;
+  float: left;
+  width: 30px;
+  height: 30px;
+  text-align: center;    
+  line-height: 30px;
+  border-radius: 50%;
+  font-size: 13px;
+  font-weight: 500;
+  color: #fffafa;
+}
+.tagName_List_ava-group {
+  position: absolute;
+  margin-top: 5px;
+  float: left;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+.tagName_List ::-webkit-scrollbar {
+  display: none;
+}
+.box-tagName_item{
+  padding-left: 10px;
+  /*border-radius: 10px;*/
+  height: 40px;
+}
+.box-tagName_item_select{
+  padding-left: 10px;
+  /*border-radius: 10px;*/
+  height: 40px;
+}
+
+.icon-tagName-tail {
+  background: #fff;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  border: 1px solid #dfdfdf;
+  border-width: 0 1px 1px 0;
+  border-radius: 2px;
+  position: relative;
+  top: -8px;
+  left: 0px;
+  transform: rotate(45deg);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+}
+.tagName-box-tail {
+  position: absolute;
+  bottom: -13px;
+  left: 80px;
+  overflow: hidden;
+  width: 26px;
+  height: 14px;
+  background: #fff;
+  display: none;
+}

@@ -1,0 +1,11 @@
+RewriteBase /
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.html [L]
+
+server {
+  location / {
+    try_files $uri /index.html;
+  }
+}

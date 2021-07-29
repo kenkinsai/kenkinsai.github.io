@@ -1,0 +1,145 @@
+.box-audio-record-wrap:hover .box-audio-record {
+  display: block;
+}
+
+.icons-sticker {
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+}
+
+.box-audio-record {
+  width: 300px;
+  height: 220px;
+  position: absolute;
+  bottom: 60px;
+  left: 0px;
+  border-radius: 5px;
+  background: #fff;
+  z-index: 11;
+  display: block;
+  color: #000;
+}
+.audio-record-play{
+  position: absolute;
+  bottom: 12px;
+}
+.box-audio-record-body {
+  position: relative;
+  width: 300px;
+  height: 220px;
+  padding: 30px 30px 20px 30px;
+}
+
+.audio-record-timer {
+  font-size: 50px;
+  font-weight: 400;
+  width: 100%;
+  height: 80px;
+  line-height: 50px;
+}
+
+.audio-record-desc {
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 20px;
+  color: #959595;
+  font-weight: 400;
+}
+
+.audio-record-button {
+  width: 100%;
+  cursor: pointer;
+  padding: 18px;
+  font-size: 16px;
+  border-radius: 10px;
+  background: #d31027;
+  color: #fff;
+}
+
+.audio-record-btn {
+  position: relative;
+  width: 100%;
+}
+
+.audio-record-btn div {
+  width: 45%;
+  padding: 16px;
+  position: absolute;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.audio-record-continue {
+  margin-left: 55%;
+  color: #fff;
+}
+
+.audio-record-cancel {
+  background-color: #e8e9e9;
+  color: #25272a;
+}
+
+.box-audio-record-content {
+  padding: 10px 10px 0px 10px;
+  outline: 0!important;
+  cursor: pointer;
+}
+
+.icon-audio-record {
+  margin: 0 2px 0 0;
+  padding: 15px;
+  display: block;
+  float: left;
+  border-radius: 2px;
+  font-size: 25px;
+}
+
+
+.icon-audio-record:hover {
+  background-color: #ddd;
+}
+
+.audio-record-box-tail {
+  position: absolute;
+  bottom: -13px;
+  left: 75px;
+  overflow: hidden;
+  width: 26px;
+  height: 14px;
+  z-index: 9999999999;
+}
+.audio-prevew audio{
+  width: -webkit-fill-available;
+}
+audio::-webkit-media-controls-current-time-display
+,audio::-webkit-media-controls-time-remaining-display
+{
+  display: none;
+}
+audio::-webkit-media-controls-panel{
+  background-color: var(--theme-background_forward_color);
+}
+audio::-webkit-media-controls-play-button{
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+audio:focus {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+.icon-audio-record_box-tail {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border-width: 0 1px 1px 0;
+  border-radius: 2px;
+  position: relative;
+  top: -8px;
+  left: 0px;
+  transform: rotate(45deg);
+  box-shadow: 1px 1px 1px rgba(0,0,0,.1);
+}

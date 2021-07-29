@@ -1,0 +1,380 @@
+.zcall_icon {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.zname-miss {
+  color: #F44336;
+}
+
+.zgroupitem .icon-call-in {
+  color: #2196F3;
+}
+
+.zgroupitem .icon-call-out {
+  color: #4CAF50;
+}
+
+.zgroupitem .icon-call-miss {
+  color: #F44336;
+}
+
+.zgroup_date {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  color: #aaa;
+  font-size: 12px;
+  font-weight: 100;
+}
+.overflowText{
+  white-space: nowrap !important ;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: initial;
+  max-width: 100% !important;
+  float: left !important;
+  margin-right: 200px;
+  padding-right: 10px !important;
+}
+.zchat_footer_reply_message_text {
+  line-height: 1.5;
+  margin-top: 5px;
+  font-size: 14px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 535px;
+}
+.zgroupitem-call {
+  padding-left: 45px;
+}
+
+.zgroup_maininfo {
+  height: 40px;
+  padding-left: 40px;
+}
+
+
+.ava-sender {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+.zchat_list {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow-y: scroll;
+  padding-top: 20px;
+  padding-bottom: 80px;
+
+  -ms-overflow-style: none; 
+  scrollbar-width: none;  
+}
+.zchat_list::-webkit-scrollbar {
+  display: none;
+}
+
+.zchat_footer {
+  position: absolute;
+  bottom: 0px;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+  min-height: 60px;
+  z-index: 7;
+  justify-content: center;
+  align-items: center;
+}
+.zchat_footer_padding {
+  padding-right:  299px;
+}
+/*.zchat_footer-active {
+  position: absolute;
+  bottom: 0px;
+  border-top: solid 1px #f0f0f0;
+  width: 100%;
+  min-height: 70px;
+  z-index: 8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 300px;
+}*/
+.zchat_footer-row {
+  width: 100%;
+  position: relative;
+  padding-top: 20px;
+  display: inline-block;
+
+  /*padding-top: 5px;*/
+  padding-bottom: 5px;
+}
+
+.zchat_attachments {
+  height: 40px;
+  width: 40px;
+  float: left;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-top: 10px;
+  position: absolute;
+}
+.zchat_row {
+  display: table;
+  width: 100%;
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.zchat_col {
+  display: table-cell;
+}
+
+.col1 {
+  width: 52px;
+  padding-top: 15px;
+}
+
+.zmessage_avatar {
+  height: 60px;
+  width: 60px;
+  background: #e9f5ff;
+  position: absolute;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+.zmessage_typing {
+  height: 24px;
+  text-align: left;
+  position: absolute;
+  width: 400px;
+  top: -25px;
+  padding-left: 22px;
+  left: 0px;
+  font-size: 13px;
+}
+
+.avatar-sender {
+  line-height: 24px;
+  font-size: 10px;
+  font-weight: 600;
+  color: #fffafa;
+}
+
+.zmessage_namesender {
+  font-size: 13px;
+  font-weight: bold;
+  color: #3a6d99;
+  text-align: left;
+}
+
+.zmessage_send {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  right: 0px;
+  background-image: linear-gradient(225deg, #00c5ff, #0062ff);
+  border-radius: 50px;
+}
+
+.chat-wrapper {
+  min-width: 200px;
+}
+
+.message-text, .load-image-footer {
+  max-height: 105px;
+  outline: none;
+  overflow: hidden;
+  text-align: left;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: -0.18px;
+  padding-left: 10px;
+  display: flex;
+  align-content: center;
+  word-break: break-word;
+  overflow: scroll;
+  white-space: pre-wrap;
+}
+.message-text::-webkit-scrollbar {
+  display: none;
+}
+.message-text {
+  -ms-overflow-style: none;
+  scrollbar-width: none;  
+}
+
+.message-text b {
+  font-weight: bold;
+}
+
+.message-wrapper {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 10px;
+  padding-right: 20px;
+  border-radius: 20px;
+}
+
+.image-copy-footer {
+  position: relative;
+}
+
+.load-image-footer {
+  max-height: 205px;
+  max-width: 300px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.image_footer-close {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  cursor: pointer;
+  background: #000;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+}
+
+.image_footer-close img {
+  width: 20px;
+  height: 20px;
+}
+
+div:empty::before {
+  
+}
+
+div[data-placeholder]:not([data-placeholder=""]):empty::before {
+  content: attr(data-placeholder);
+}
+
+.message-text div:empty::before {
+  content: '';
+}
+
+.img-sticker {
+  width: 100px;
+}
+
+
+.img-message-row {
+  overflow: hidden;
+  outline: none;
+  max-width: 240px;
+  /*height: 360px;*/
+  position: relative;
+  border-radius: 8px;
+}
+.img-message-row:focus{
+  outline: none
+}
+
+.sender-reply img {
+  width: 12px;
+}
+
+.zchat_footer-box {
+  width: 100%;
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.zchat_footer-close {
+  position: absolute;
+  right: 90px;
+}
+
+.zchat_footer-close img {
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+}
+
+.zchat_footer-reply {
+  float: left;
+  padding-left: 15px;
+  max-height: 176px;
+  overflow: scroll;  
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+}
+.zchat_footer-reply::-webkit-scrollbar {
+  display: none;
+}
+
+.zchat_reply_namesender {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.zchat-audioprocess {
+  width: 0%;
+  height: 3px;
+}
+
+.ztab-more-user_txtname {
+  font-size: 13px;
+  padding-left: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  text-align: center;
+  overflow: hidden;
+  margin-right: 10px;
+  text-overflow: ellipsis;
+  
+}
+
+.zmore-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.zmess-box_tagName_hiden{
+  display: none;
+}
+
+#menu-footer {
+  position: fixed;
+  z-index: inherit;
+  display: none;
+}
+
+.menu-option-footer {
+  line-height: 25px;
+  font-size: 13px;
+  padding-left: 10px;
+  cursor: pointer;
+  color: #000000;
+}
+
+.menu-option-footer:hover {
+  background: #7eb3fe;
+  color: #fff;
+}

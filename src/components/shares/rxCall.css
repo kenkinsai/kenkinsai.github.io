@@ -1,0 +1,279 @@
+.zchat_callscreen {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 12;
+}
+
+.zchat_callscreen_bg {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: #000;
+  opacity: 0.5;
+}
+
+.zchat_callscreen_main {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.zchat_callcenter {
+  width: 300px;
+  height: 420px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  /*overflow: auto;*/
+  background: linear-gradient(44deg, #232126, #2b2823, #35302b);
+  box-shadow: #0e1e251f 0px 2px 4px 0px, #0e1e2552 0px 2px 16px 0px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.zchat_videocallcenter {
+  width: 80%;
+  height: 85%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  /*overflow: auto;*/
+  background: linear-gradient(44deg, #232126, #2b2823, #35302b);
+  box-shadow: #0e1e251f 0px 2px 4px 0px, #0e1e2552 0px 2px 16px 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-radius: 10px;
+  max-width: 960px;
+}
+
+.zchat_videocallmain {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: #191919;
+  margin-bottom: 15px;
+}
+
+/*#local-video {
+  
+}
+*/
+#remote-video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0px auto;
+}
+
+.zchat_videocall_local {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.zchat_videocall_local video {
+  position: relative;
+  width: 130px;
+  /*height: 100%;*/
+  box-shadow: rgb(17 17 26 / 10%) 0px 4px 16px, rgb(17 17 26 / 10%) 0px 8px 24px, rgb(17 17 26 / 10%) 0px 16px 56px;
+  border-radius: 6px;
+}
+
+.zchat_videocallinfo {
+  top: 0px;
+  position: absolute;
+  width: 100%;
+}
+
+.zchat_callInfo {
+  /*position: absolute;
+  width: 100%;
+  height: 100%;*/
+}
+
+/*.zcall_container {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+  position: relative;
+  top: 10%;
+}*/
+
+.zcall_container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 25px;
+}
+
+img.zchat_callbox_close {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  width: 15px;
+  cursor: pointer;
+}
+
+.video_remote_stream video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.zcall_button {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  position: relative;
+  margin: 10px auto;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: #fff;
+}
+
+.zcall_buttons {
+/*  text-align:center;
+  position:absolute;*/
+}
+.zcall_footer{  
+  height: 50px;
+  width: 100%;
+  text-align:center;
+  position:absolute;
+  bottom: 0px;
+  background: #1F1F1F;}
+.zcall_group_button {
+  margin: auto;
+  width: 265px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.zcall_cancel, .zcall_answer {
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.zcall_btn {
+  position: absolute;
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.zcall_btn_bg {
+  background: #fff;
+}
+
+.zcall_btn_border {
+  border: 1px solid #fff;  
+}
+
+.zcall_content {
+  line-height: 60px;
+  font-size: 18px;
+  font-weight: 100;
+  text-align: center;
+  color: #fff;
+}
+
+.zcall_avatar {
+  width: 100%;
+  height: 120px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.zcall_avatarimg {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+@keyframes play {
+
+  0% {
+      transform: scale(1);
+  }
+  15% {
+      box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.4);
+  }
+  25% {
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.4), 0 0 0 20px rgba(255, 255, 255, 0.2);
+  }
+  25% {
+      box-shadow: 0 0 0 15px rgba(255, 255, 255, 0.4), 0 0 0 30px rgba(255, 255, 255, 0.2);
+  }
+
+}
+.zcall_info {
+  font-size: 22px;
+  margin-top: 25px;
+  text-align: center;
+  color: #fff;
+}
+
+.video_call_box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video_call_stream {
+  display: none; 
+  width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+  position: absolute;
+   top: 3px; 
+}
+
+.video_call_stream video {
+  width: 95%;
+  height: 100%;
+}
+
+.video_remote_stream {
+  position: absolute;
+  margin: auto;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+#localAudio, #remoteAudio {
+  display: none;
+}

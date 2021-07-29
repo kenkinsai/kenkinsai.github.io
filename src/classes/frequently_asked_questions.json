@@ -1,0 +1,99 @@
+{ 
+  "questNum1": 
+  { "name":"questNum1",
+    "status_click": false,
+    "question":"How to log in or out on NetAlo?",
+    "answer":"After opening NetAlo app, log in by filling in your phone number, then tap on the “Continue” button. Then, a message containing your OTP will be sent to your phone. If you don’t receive the message, tap on “Re-send OTP” on the left. If your OTP is successfully verified, you can now start using NetAlo by tapping on the “Start chatting” button. If you wish to log out, tap on the “Account”  button on the bottom-right corner of your phone screen. When your account detail tab is shown, scroll down to the bottom of your phone screen and tap on “Log out”."
+  },
+  "questNum2": 
+  { "name":"questNum2",
+    "status_click": false,
+    "question":"How to verify your phone number?",
+    "answer":"NetAlo verifies your phone number via OTP code. After you fill in your phone number, a message containing your OTP will be sent to your phone. If you don’t receive the message, tap on “Re-send OTP” on the left. If your OTP is successfully verified, you can now start using NetAlo by tapping on “Start chatting”."
+  },
+  "questNum3": 
+  { "name":"questNum3",
+    "status_click": false,
+    "question":"How to create a group chat?",
+    "answer":"On the main page, tap on the “Message” button  on the top-right corner of your phone screen. When a new tab appears, tap on “Create a group chat” (in blue color). NetAlo will then show your contact list. From there, pick those you wish to create a group chat with, then tap on “Done”. You can also create a group chat by choosing a particular chat of yours with another person on the main page. When your message tab shows up, tap on the Name of the person located on top of your phone screen. Another tab showing your contact’s detailed information will appear. Then, tap on “Create group” , choose from your contact list who you wish to invite to the chat group, then tap on “Done”."
+  },
+  "questNum4": 
+  { "name":"questNum4",
+    "status_click": false,
+    "question":"How to add someone into a group chat?",
+    "answer":"On the main page, choose one particular group chat that you wish to add new contacts to. When the message tab appears, tap on the Name of the group chat located on top of your phone screen. When another tab showing your group chat details appears, tap on “Add contact” . From your contact list, pick those you wish to invite to your group chat, then tap on “Done”."
+  },
+  "questNum5": 
+  { "name":"questNum5",
+    "status_click": false,
+    "question":"How to remove someone from a group chat?",
+    "answer":"NetAlo does not currently support this feature/function."
+  },
+  "questNum6": 
+  { "name":"questNum6",
+    "status_click": false,
+    "question":"How to leave a group chat?",
+    "answer":"On the main page, choose one particular group chat that you wish to leave. When the message tab appears, tap on the Name of the group chat located on top of your phone screen. When another tab showing your group chat details appears, tap on “Leave group” (in red color) to leave the group chat."
+  },
+  "questNum7": 
+  { "name":"questNum7",
+    "status_click": false,
+    "question":"How to see a group chat’s participation list?",
+    "answer":"On the main page, choose one particular group chat that you wish to view the participation list of. When the message tab appears, tap on the Name of the group chat located on top of your phone screen. When another tab showing your group chat details appears, scroll down to the bottom to see the participation list."
+  },
+  "questNum8": 
+  { "name":"questNum8",
+    "status_click": false,
+    "question":"How to create a phone call on NetAlo?",
+    "answer":"On the main page, tap on the “Phone call”  button (second position from the left, located at the bottom of your phone screen). When a new tab appears, tap on “Start new phone call”. This will take you to your “Contacts” page. Choose a particular contact that you want to call. Then, when your message tab with that contact appears, tap on the “Phone call” button located at the top-right corner of your phone screen."
+  },
+  "questNum9": 
+  { "name":"questNum9",
+    "status_click": false,
+    "question":"Are NetAlo Calls free of charge?",
+    "answer":"Yes. NetAlo Calls are based on Internet or wi-fi connection. You don’t need to buy phone cards to use it."
+  },
+  "questNum10": 
+  { "name":"questNum10",
+    "status_click": false,
+    "question":"Does NetAlo support conference calling?",
+    "answer":"NetAlo does not currently support this feature/function"
+  },
+  "questNum11": 
+  { 
+    "name":"questNum11",
+    "status_click": false,
+    "question":"How to share photos on NetAlo?",
+    "answer":"On your message page, tap on the “Media” button  located at the bottom-left corner of your phone screen. Then pick the images that you wish to send, then tap “Send”. GAlo does not limit the number of images or videos that you wish to share."
+  },
+  "questNum12": 
+  { "name":"questNum12",
+    "status_click": false,
+    "question":"How do I edit my profile?",
+    "answer":"On the main page, tap on the “Account” button  located at the bottom-right corner of your phone screen. Then, a new tab showing your account’s detailed information will appear for you to edit."
+  },
+  "questNum13": 
+  { "name":"questNum13",
+    "status_click": false,
+    "question":"How to manage your notification?",
+    "answer":"If you want to silence a message’s notification, tap on one of the messages shown on the main page. Then, when your chosen message is opened, tap on the Name of the contact located on top of the message tab. When another tab showing your contact’s details appeared, tap on the “Stop notification”  button located at the bottom of your phone screen."
+  },
+  "questNum14": 
+  { "name":"questNum14",
+    "status_click": false,
+    "question":"How to send a message on NetAlo?",
+    "answer":"On the main page, tap on the “Message” button  on the top-right corner of your phone screen. The “Contacts” page  will then be opened. From there, choose one particular contact of yours and start sending messages. Another way is going directly to “Contacts” page  (third button from the left, located at the bottom of your screen), then choose one particular contact on your list and start sending messages."
+  },
+  "questNum15": 
+  { "name":"questNum15",
+    "status_click": false,
+    "question":"Can I listen to my own voice chat before sending it?",
+    "answer":"This function/feature is currently being developed by NetAlo"
+  },
+  "questNum16": 
+  { "name":"questNum16",
+    "status_click": false,
+    "question":"How to send a voice chat?",
+    "answer":"On the main page, choose one particular message of yours. A new tab showing your message with that one particular contact of yours will appear. Then tap on the “Microphone” button  located at the bottom-left corner of your phone screen and start recording your voice. After you finished, tap on “Stop recording”, then tap “Send” if you agree to send the voice message."
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "name": "RxgenWeb",
+  "config": {
+    "pm2name": "rxnetalo_web"
+  },
+  "version": "2.1.0",
+  "description": "NodeJS Custom CLI Generator",
+  "keywords": [
+    "custom",
+    "module",
+    "nodejs",
+    "node",
+    "cli"
+  ],
+  "private": true,
+  "license": "Copyright",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": "http://rxkd.com"
+  },
+  "author": "RxDev",
+  "homepage": "https://kenkinsai.github.io",
+  "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
+    "buildcpjs": "cp build/static/js/main.*.js build/static/js/main.js && cp build/static/js/2.*.js build/static/js/2.js && cp build/static/js/runtime-main.*.js build/static/js/runtime-main.js",
+    "buildcpcss": "cp build/static/css/main.*.css build/static/css/main.css && cp build/static/css/main.css build/static/css/main_default.css",
+    "buildcpmap": "cp build/static/css/main.*.css.map build/static/css/main.css.map && cp build/static/css/main.css.map build/static/css/main_default.css.map && cp build/static/js/main.*.js.map build/static/js/main.js.map",
+    "buildcphtml": "rm -f build/index.html && cp build/index.ejs.html build/index.html && rm -rf dist && cp -rf build dist",
+    "buildcp": "yarn buildcpjs && yarn buildcpcss && yarn buildcpmap && yarn buildcphtml",
+    "build": "react-scripts build && yarn buildcp",
+    "buildcpstatic": "cp -rf public/images build/ && cp -rf public/logo build/ && cp -rf public/sounds build/ && cp -rf public/static/fonts build/static/ && cp -rf public/*.css build/",
+    "build-webpack": "webpack -p && yarn buildcpstatic",
+    "watch": "webpack --watch --display-modules --mode production",
+    "server-dev:start": "nodemon indexbabel.js --watch",
+    "server-dev:watch": "npm-run-all --parallel server-dev watch",
+    "server-dev": "react-scripts build --env=dev && npm-run-all --parallel server-dev:start watch",
+    "dev": "react-scripts start HTTPS=true",
+    "server": "node indexbabel.js",
+    "pm2-start": "pm2 start indexbabel.js --name $npm_package_config_pm2name",
+    "pm2-stop": "pm2 delete $npm_package_config_pm2name",
+    "pm2-dev": "npm-run-all pm2-stop ; pm2 start node_modules/react-scripts/scripts/start.js --name $npm_package_config_pm2name",
+    "pm2": "npm-run-all pm2-stop ; npm-run-all pm2-start"
+  },
+  "dependencies": {
+    "@rxframework/rxulti": "latest",
+    "array-move": "^3.0.1",
+    "gh-pages": "^3.2.3",
+    "html-react-parser": "^0.4.1",
+    "isomorphic-fetch": "^2.2.1",
+    "jquery": "^3.3.1",
+    "qrcode.react": "^1.0.1",
+    "react": "^16.4.1",
+    "react-contenteditable": "^3.3.5",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "react-router-config": "^1.0.0-beta.4",
+    "react-router-dom": "^4.3.1",
+    "react-window": "^1.8.6",
+    "react-window-infinite-loader": "^1.0.7",
+    "redux": "^4.0.0",
+    "socket.io-client": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/plugin-transform-runtime": "^7.13.10",
+    "@babel/plugin-transform-spread": "^7.13.0",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-react": "^7.13.13",
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^24.9.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "compression-webpack-plugin": "^3.0.1",
+    "crypto-js": "^3.1.9-1",
+    "css-loader": "^3.4.4",
+    "eslint": "^6.8.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-react": "^7.21.5",
+    "extract-text-webpack-plugin": "v4.0.0-beta.0",
+    "file-loader": "^4.2.0",
+    "glob-all": "^3.2.1",
+    "jest": "24.9.0",
+    "mini-css-extract-plugin": "^1.4.0",
+    "nodemon": "1.19.3",
+    "purify-css": "^1.2.5",
+    "purifycss-webpack": "^0.7.0",
+    "react-scripts": "^3.2.0",
+    "react-sortable-hoc": "^1.11.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack-cli": "^3.3.10",
+    "webpack-plugin-critical": "^1.0.0"
+  },
+  "Commentary": {
+    "react-scripts": "^3.2.0",
+    "react-scripts-cssmodules": "^1.1.50",
+    "test": "react-scripts test --env=jsdom",
+    "jquery-lite": "2.2.3",
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  },
+  "browserslist": {
+    "production": [],
+    "development": []
+  }
+}

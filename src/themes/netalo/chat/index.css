@@ -1,0 +1,111 @@
+.chat-main {
+  width: 770px;
+  position: fixed;
+  height: 500px;
+  bottom: 20px;
+  right: 75px;
+}
+.zright_contain_empty{
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: center;
+  color: #959595;
+  position: relative;
+  top: 48%;
+}
+.ava-span {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  line-height: 40px;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fffafa;
+}
+
+.menu-option {
+  line-height: 25px;
+  font-size: 13px;
+  padding-left: 10px;
+  cursor: pointer;
+  color: #000000
+}
+
+.menu-option:hover {
+  background: #7eb3fe;
+  color: #fff;
+}
+
+
+#menu-mouseright-chat{
+  position: fixed;
+  z-index: 100;
+  display: none;
+}
+.main-container div.loading{
+  /* min-height: 500px; */
+}
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: inherit;
+  height: inherit;
+  background-color: var(--theme-color_background);
+}
+/* Dot Flashing */
+.dot-flashing {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: var(--theme-icon_color);
+  color: var(--theme-icon_color);
+  animation: dotFlashing 1s infinite linear alternate;
+  animation-delay: .5s;
+}
+
+.dot-flashing::before, .dot-flashing::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 0;
+}
+
+.dot-flashing::before {
+  left: -15px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: var(--theme-icon_color);
+  color: var(--theme-icon_color);
+  animation: dotFlashing 1s infinite alternate;
+  animation-delay: 0s;
+}
+
+.dot-flashing::after {
+  left: 15px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: var(--theme-icon_color);
+  color: var(--theme-icon_color);
+  animation: dotFlashing 1s infinite alternate;
+  animation-delay: 1s;
+}
+
+@keyframes dotFlashing {
+  0% {
+    background-color: var(--theme-icon_color);
+  }
+  50%,
+  100% {
+    background-color: var(--theme-background_forward_color);
+  }
+}

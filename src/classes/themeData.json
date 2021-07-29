@@ -1,0 +1,34 @@
+{
+  "defaultTheme":
+  {
+    "theme_color_background" : "#FFFFFF",     
+    "theme_color_background_sticker" : "#FFFFFF", 
+    "theme_color_background_sticker_active" : "#f7f7f7",     
+    "theme_color_background_icon_sticker_active" : "#eee", 
+    "theme_color_background_doc" : "#edf0f1", 
+    "theme_color_text" : "#000000",
+    "theme_color_text_1" : "#333333c9",
+    "theme_color_text_light" : "#25272a",
+    "theme_border_color" : "#f0f0f0",
+    "theme_group_border_color" : "#f0f0f0",
+    "theme_color_background_input": "#f0f4f5",
+    "theme_color_background_search_input": "#dce1e4",
+    "theme_placeholder_color": "#6E7165"
+  },
+  "nightTheme": 
+  { 
+    "theme_color_background" : "#242526",     
+    "theme_color_background_sticker" : "#3e4042", 
+    "theme_color_background_sticker_active" : "#474b4e", 
+    "theme_color_background_icon_sticker_active" : "#474b4e", 
+    "theme_color_background_doc" : "#3a3b3c", 
+    "theme_color_text" : "#e4e6eb",
+    "theme_color_text_1" : "#CCCCCC",
+    "theme_color_text_light" : "#e4e6eb",
+    "theme_border_color" : "#3e4042",
+    "theme_group_border_color" : "#545659",
+    "theme_color_background_input": "#3A3B3C",
+    "theme_color_background_search_input": "#565656",
+    "theme_placeholder_color": "#9C9EA2"
+  }
+}

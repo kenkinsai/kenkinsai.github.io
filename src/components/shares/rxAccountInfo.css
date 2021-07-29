@@ -1,0 +1,1012 @@
+.account_info_tab_right {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  right: 0px;
+  top: 48px;
+  z-index: 11;
+  display: block;
+  overflow-y: scroll;
+}
+
+.account_info_tab_right-user {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  margin-bottom: -1px;
+}
+
+.account_info_tab_right-user-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.edit_img_user_group {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin-left: 100px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.account-ava-group {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: absolute;
+  object-fit: cover;
+}
+
+.account-ava-span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 28px;
+  color: #fff;
+  line-height: 100px;
+}
+
+.account_info_tab_right-btn-edit {
+  width: 98px;
+  text-align: right;
+}
+
+.account_info_tab_right-txt-edit {
+  font-size: 13px;
+  cursor: pointer;
+  padding-right: 16px;
+  display: block;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+}
+
+.account_info_tab_right-user-name {
+  font-size: 13px;
+  padding-left: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  text-align: center;
+  overflow: hidden;
+  margin-right: 10px;
+  text-overflow: ellipsis;
+}
+
+.account_info_tab_right-status {
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #959595;
+  /* margin-top: 15px; */
+  height: 30px;
+}
+
+.className_hiden {
+  display: none;
+}
+
+.account_info_tab_right-list-member-title {
+  width: 270px;
+  float: left;
+  font-size: 14px;
+  height: 26px;
+  padding-left: 16px;
+  cursor: pointer;
+}
+
+.account_info_tab_right-list-member-icon {
+  float: right;
+  padding-right: 16px;
+  cursor: pointer;
+  height: 30px;
+}
+
+/* not finished */
+.editGroup_arrow_right {
+  border-width: 3px 0 0 3px !important ;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.ztab-more-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  height: 65px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: -1px;
+  border-bottom: solid 1px;
+}
+
+.ztab-more-info_phone {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+}
+
+.ztab-more-info_phone-txt {
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #666769;
+  margin-top: 16px;
+  margin-bottom: 3px;
+}
+
+.ztab-more-info_phone_number {
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  margin-bottom: 13px;
+}
+
+.ztab-more-info_act {
+  display: flex;
+  align-items: center;
+}
+
+.icon-act {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.videocall-icon {
+  width: 22px;
+  height: 22px;
+}
+
+.newManager_contactlist {
+  max-height: 200px;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.newManager_contactlist::-webkit-scrollbar {
+  display: none;
+}
+
+.newManager_contactlist
+  div.zgroup_maininfo-contact.edit:hover
+  > div.remove_member {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  animation: fade 0.5s;
+}
+
+.newManager_contactlist div.remove_member:hover {
+  border: solid 1px var(--theme-border-color);
+  background-color: var(--theme-icon_color);
+  color: var(--theme-border-color);
+}
+
+.newManager_contactlist
+  div.zgroup_maininfo-contact.edit:hover
+  > div.newManager_user_online {
+  margin-right: 45px;
+}
+
+.newManager_contactlist div.remove_member {
+  color: var(--theme-icon_color);
+  float: right;
+  display: none;
+  border: solid 1px var(--theme-icon_color);
+  border-radius: 5px;
+  padding: 3px;
+  margin-top: 8px;
+  cursor: pointer;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 600ms, visibility 600ms;
+  transition: opacity 600ms, visibility 600ms;
+  font-size: 10px;
+}
+
+.newManager_contactlist_hiden {
+  display: none;
+}
+
+.newManager_zgroupitem-contact {
+  width: 100%;
+  height: 56px;
+  padding: 7px 15px;
+  position: relative;
+  cursor: pointer;
+}
+
+.newManager_contactlist div.newManager_zgroupitem-contact.clearfix:hover {
+  background-color: var(--theme-color_background_active);
+}
+
+.newManager_avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  float: left;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.zgroup_maininfo-contact {
+  height: 40px;
+  padding-left: 40px;
+  cursor: pointer;
+}
+
+.zgroup_maininfo-contact_hiden {
+  display: none;
+}
+
+.newManager_userinfo_place {
+  line-height: 40px;
+  position: absolute;
+  margin-left: 15px;
+  font-size: 14px;
+}
+
+.newManager_leader {
+  color: #959595;
+  float: right;
+  font-size: 10px;
+}
+
+.newManager_leader_hiden {
+  display: none;
+}
+
+.newManager_user_online {
+  top: 20px;
+  right: 15px;
+  position: absolute;
+  font-size: 10px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #959595;
+}
+
+div.newManager_user_online.online {
+  color: #27b35f;
+}
+
+div.newManager_user_online {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+}
+
+.group_divider {
+  width: 275px;
+  height: 1px;
+  object-fit: contain;
+  vertical-align: middle;
+  margin-left: 52px;
+  margin-top: 8px;
+}
+
+.ztab-add-member_hiden {
+  display: none;
+}
+
+.zact-add-member {
+  font-size: 14px;
+  text-align: left;
+  margin-left: 3px;
+  cursor: pointer;
+}
+
+.zact-add-member_hiden {
+  display: none;
+}
+
+/* ADD MEMBER */
+.zact-add_account_info {
+  height: 43px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: 1px;
+  padding-left: 16px;
+  color: #fff;
+}
+
+.zact-block-contact {
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #d31027;
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.zact-block-contact_hiden {
+  display: none;
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-top: 10px;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.ztab-more-act_hiden {
+  display: none;
+}
+
+.zact-add_account_info_noti {
+  height: 43px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: 1px;
+  padding-left: 16px;
+}
+
+.zact-add_account_info_noti div.account_info_noti_mode {
+  margin-left: 30px;
+  position: absolute;
+  right: 14px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 17px;
+}
+
+.switch .pushToggles {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.zact {
+  height: 43px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: 1px;
+  padding-left: 16px;
+}
+
+.zact_hiden {
+  display: none;
+}
+
+.zact-leave-group {
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #d31027;
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.zact-leave-group_hiden {
+  display: none;
+}
+
+.zdocument-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+}
+
+.zdocument-header-txt {
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #959595;
+  cursor: pointer;
+}
+
+.zdocument-list {
+  display: inline-block;
+  padding-left: 14px;
+  position: relative;
+  overflow-y: scroll;
+  height: 200px;
+  width: 100%;
+  padding-bottom: 300px;
+}
+
+.zdocument-item {
+  height: 65px;
+  width: 65px;
+  margin-right: 3px;
+  margin-bottom: 3px;
+  position: relative;
+  float: left;
+}
+
+.zdoc-item {
+  width: 65px;
+  height: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+}
+
+.zvideo-list {
+  position: relative;
+  width: 65px;
+  height: 65px;
+}
+
+img.zvideo-item {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  border-radius: 5px;
+}
+
+.zvideo-item-play {
+  position: absolute;
+  width: 65px;
+}
+
+.zvideo-item-play img {
+  display: block;
+  margin: 20px auto;
+  width: 25px;
+  height: 25px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.zicon-doc span {
+  width: 65px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 45px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+}
+
+.zicon-name {
+  width: 65px;
+  height: 100%;
+  position: relative;
+  text-align: center;
+}
+
+span.icon-doc-name {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 55px;
+  text-align: center;
+  margin: auto;
+  font-size: 10px;
+}
+
+.leaveGroup_rectangle {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 1001;
+}
+
+.leaveGroup_rectangle_hiden {
+  display: none;
+}
+
+/* .leaveGroup_rectangle_1 {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: black;
+  opacity: 0.2;
+} */
+
+.leaveGroup_rectangle_2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+}
+
+.leaveGroup_rectangle_2_1 {
+  margin: auto;
+  width: 370px;
+  height: 175px;
+  top: 30%;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.leaveGroup_title {
+  text-align: center;
+  font-size: 17px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.leaveGroup_body {
+  padding-left: 40px;
+  padding-right: 40px;
+  color: #a5a3a3;
+  text-align: center;
+  font-size: 12px;
+}
+
+.leaveGroup_btnPlace {
+  margin-top: 20px;
+}
+
+.leaveGroup_cancelBtn {
+  padding-top: 7px;
+  margin-left: 70px;
+  margin-right: 15px;
+  float: left;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #d8e0e3;
+  color: #000000;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.leaveGroup_okBtn {
+  padding-top: 7px;
+  margin-left: 15px;
+  margin-right: 70px;
+  float: left;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.edit_rectangle {
+  position: absolute;
+  top: 47px;
+  right: 0px;
+  /*width: 100%;*/
+  height: 100%;
+  z-index: 1000;
+}
+
+.edit_rectangle_hiden {
+  display: none;
+}
+
+.edit_rectangle_1 {
+  /* top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1px;
+  padding-top: 20px;
+  padding-bottom: 20px; */
+
+  width: 300px;
+  height: 100%;
+  position: relative;
+  flex-direction: column;
+  margin-bottom: 1px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  top: 0px;
+  display: block;
+  float: right;
+}
+
+.edit_rectangle_1 span.account-ava-span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 28px;
+  color: #fff;
+  line-height: 100px;
+}
+
+.zmore-btn-back_place {
+  height: 40px;
+  padding-left: 15px;
+  cursor: pointer;
+}
+
+.edit-img-user {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin-left: 76px;
+  position: relative;
+  display: flex;
+  flex-direction: initial;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.edit-img-user div.icon-camera {
+  z-index: 9;
+  font-size: x-large;
+}
+
+.edit-img-user div.icon-camera:empty::before {
+  color: white;
+}
+
+.edit-img-user img.images-static.edit,
+.edit-img-user span.account-ava-span.edit {
+  filter: brightness(50%);
+  width: 102%;
+  height: 102%;
+}
+
+.rxAccount-btn-done {
+  width: 98px;
+  text-align: right;
+  padding-right: 16px;
+}
+
+.rxAccount-txt-done {
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+}
+
+.rxAccount_group_name_input {
+  border: none;
+  padding-left: 16px;
+  font-size: 14px;
+  padding-right: 16px;
+}
+
+.rxAccount_group_name_input::placeholder {
+  opacity: 1;
+}
+
+.rxAccount_group_name_input:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.edit_divider {
+  width: 266px;
+  height: 1px;
+  object-fit: contain;
+  vertical-align: text-top;
+  margin-left: 16px;
+}
+
+.rxAccount_group_name_place {
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+
+.rxAccount_group_name_title {
+  padding-left: 16px;
+  font-size: 14px;
+}
+
+.rxAccount_group_btn_revoke {
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  width: 110px;
+  height: 30px;
+  text-align: center;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.rxAccount_btn_newManager {
+  padding-left: 16px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.rxAccount_btn_newManager_hiden {
+  display: none;
+}
+
+.newManager_rectangle {
+  position: absolute;
+  top: 47px;
+  right: 0px;
+  /*width: 100%;*/
+  height: 100%;
+  z-index: 1000;
+}
+
+.newManager_rectangle_hiden {
+  display: none;
+}
+
+.newManager_rectangle_1 {
+  /* top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1px;
+  padding-top: 20px;
+  padding-bottom: 20px; */
+
+  width: 300px;
+  height: 100%;
+  position: relative;
+  flex-direction: column;
+  margin-bottom: 1px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  top: 0px;
+  display: block;
+  float: right;
+}
+
+.newManager_title {
+  text-align: center;
+  font-size: 18px;
+  float: left;
+  width: 100%;
+}
+
+.newManager_btn_close {
+  float: right;
+  width: 28px;
+  text-align: right;
+  padding-right: 16px;
+}
+
+.newManager_icon_close {
+  position: absolute;
+  top: 16px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.selectManager_contactlist {
+  /*background-color: #fff;*/
+  max-height: 340px;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.selectManager_contactlist::-webkit-scrollbar {
+  display: none;
+}
+
+.newManager_checked {
+  float: right;
+  padding-top: 9px;
+}
+
+.container101 {
+  display: block;
+  position: relative;
+  padding-left: 27px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.container101 .checkmark1 {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border-width: 0.1px 0.1px;
+}
+
+.container101:hover .checkmark1 ~ .checkmark {
+  /*border-width: 0.1px 0.1px; */
+  border-color: #d8e0e3;
+}
+
+.container101 .checkmark1:checked ~ .checkmark {
+  border-width: 0.1px 0.1px;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container101 .checkmark1:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container101 .checkmark:after {
+  left: 9px;
+  top: 4px;
+  width: 6px;
+  height: 11px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.container101 .checkmark_leader_account {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark_choose_leader_account {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border-width: 0.1px 0.1px;
+}
+
+.container101
+  .checkmark_leader_account:checked
+  ~ .checkmark_choose_leader_account {
+  border-width: 0.1px 0.1px;
+}
+
+.checkmark_choose_leader_account:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container101
+  .checkmark_leader_account:checked
+  ~ .checkmark_choose_leader_account:after {
+  display: block;
+}
+
+.container101 .checkmark_choose_leader_account:after {
+  left: 9px;
+  top: 4px;
+  width: 6px;
+  height: 11px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.chooseLeader_okBtn_area {
+  width: 100px;
+  height: 60px;
+  padding: 10px;
+  position: relative;
+  margin: 10px auto;
+}
+
+.chooseLeader_okBtn {
+  text-align: center;
+  width: 110px;
+  margin: 0px auto;
+  position: absolute;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* END not finished */

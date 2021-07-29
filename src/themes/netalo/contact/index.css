@@ -1,0 +1,34 @@
+.zcontact_online {
+	color:#27b35f;
+}
+.icon_edit_zleft {
+    width: 40px;
+}
+.zcontact_maininfo_place{
+	padding: 7px 15px;
+}
+.zleft_contactlist_hiden{
+	display: none;
+}
+.zleft_edit_contact {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#context-menu-contact {
+  position: fixed;
+  z-index: 100;
+  display: none;
+}
+
+.context-menu-box-contact {
+  width: 160px;
+  height: 85px;
+  border-radius: 10px;
+  box-shadow: #0000001f 0px 1px 3px, #0000003d 0px 1px 2px;
+  background-color: #ffffff;
+}
