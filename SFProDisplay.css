@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'SFProDisplayBold';
+  src: url('./static/fonts/SF-Pro-Display-Bold.eot');
+  src: url('./static/fonts/SF-Pro-Display-Bold.eot?#iefix') format('embedded-opentype'), url('./static/fonts/SF-Pro-Display-Bold.woff') format('woff'), url('./static/fonts/SF-Pro-Display-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'SFProDisplayRegular';
+  src: url('./static/fonts/SF-Pro-Display-Regular.eot');
+  src: url('./static/fonts/SF-Pro-Display-Regular.eot?#iefix') format('embedded-opentype'), url('./static/fonts/SF-Pro-Display-Regular.woff') format('woff'), url('./static/fonts/SF-Pro-Display-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'SFProDisplaySemBd';
+  src: url('./static/fonts/SF-Pro-Display-Semibold.eot');
+  src: url('./static/fonts/SF-Pro-Display-Semibold.eot?#iefix') format('embedded-opentype'), url('./static/fonts/SF-Pro-Display-Semibold.woff') format('woff'), url('./static/fonts/SF-Pro-Display-Semibold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+
+@font-face {
+  font-family: 'SFProDisplayThin';
+  src: url('./static/fonts/SF-Pro-Display-Thin.eot');
+  src: url('./static/fonts/SF-Pro-Display-Thin.eot?#iefix') format('embedded-opentype'), url('./static/fonts/SF-Pro-Display-Thin.woff') format('woff'), url('./static/fonts/SF-Pro-Display-Thin.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
