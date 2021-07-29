@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="176" height="80" viewBox="0 0 176 80">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="Rectangle_1664" fill="#fdf2ea" stroke="#707070" d="M0 0H176V80H0z"/>
+        </clipPath>
+        <style>
+            .cls-6{stroke:#f5783f;stroke-miterlimit:10;stroke-width:2.5px;stroke-linecap:round;fill:none;opacity:.5}
+        </style>
+    </defs>
+    <g id="Mask_Group_17" clip-path="url(#clip-path)">
+        <path id="Background" fill="#fdf2ea" d="M161.6 50.4a5.6 5.6 0 1 1 5.6 5.6 5.6 5.6 0 0 1-5.6-5.6zM112 56a5.613 5.613 0 0 1-1.2-.129 5.606 5.606 0 0 1-1.2.129H36.8a5.6 5.6 0 1 1 0-11.2H5.6a5.6 5.6 0 0 1 0-11.2h32a5.6 5.6 0 0 0 0-11.2h-20a5.6 5.6 0 1 1 0-11.2h32a5.6 5.6 0 1 1 0-11.2h45.6a5.6 5.6 0 0 1 0 11.2h51.2a5.6 5.6 0 0 1 0 11.2H164a5.6 5.6 0 1 1 0 11.2h-15.2a5.6 5.6 0 0 0 0 11.2h4.8a5.6 5.6 0 0 1 0 11.2z" transform="translate(2 12.4)"/>
+        <g id="Group_4" transform="translate(50.8 6.8)">
+            <path id="Shape" fill="#fff" stroke="#f5783f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.5px" d="M56.888 66.847a1.359 1.359 0 0 1-.828-.282l-8.6-6.612a45.236 45.236 0 0 1-10.132 1.138A44.325 44.325 0 0 1 22.8 58.69a38.546 38.546 0 0 1-11.867-6.546 30.913 30.913 0 0 1-8-9.709 25.559 25.559 0 0 1 0-23.779 30.914 30.914 0 0 1 8-9.709A38.547 38.547 0 0 1 22.8 2.4a45.187 45.187 0 0 1 29.064 0 38.546 38.546 0 0 1 11.868 6.547 30.914 30.914 0 0 1 8 9.709 25.67 25.67 0 0 1 2.934 11.89 25.4 25.4 0 0 1-.927 6.792A26.888 26.888 0 0 1 71.1 43.6c-.418.723-.879 1.443-1.368 2.141l-6.211 6.58a37.181 37.181 0 0 1-5.384 3.6l.112 9.559a1.357 1.357 0 0 1-1.349 1.367zm9.176-16.795l1.947-2.092c-.611.721-1.27 1.425-1.947 2.092z"/>
+            <path id="Shape-2" fill="#fdf2ea" stroke="#f5783f" stroke-miterlimit="10" stroke-width="2.5px" d="M25.794 4.073a4.072 4.072 0 1 1 4.073 4.073 4.073 4.073 0 0 1-4.073-4.073zm-12.9 0a4.072 4.072 0 1 1 4.072 4.073A4.073 4.073 0 0 1 12.9 4.073zM0 4.073a4.073 4.073 0 1 1 4.073 4.073A4.073 4.073 0 0 1 0 4.073z" transform="translate(19.685 26.473)"/>
+            <path id="Line" d="M1.6 0A23.32 23.32 0 0 0 0 3.232" class="cls-6" transform="translate(8.357 20.575)"/>
+            <path id="Line-2" d="M10.917 0A29.552 29.552 0 0 0 0 8.72" class="cls-6" transform="translate(11.498 9.553)"/>
+        </g>
+    </g>
+</svg>

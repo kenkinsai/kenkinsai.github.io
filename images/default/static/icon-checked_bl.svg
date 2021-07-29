@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="Rectangle_51" d="M0 0H24V24H0z" class="cls-1"/>
+        </clipPath>
+        <style>
+            .cls-1{fill:#1684fc}
+        </style>
+    </defs>
+    <g id="Mask_Group_10" clip-path="url(#clip-path)">
+        <path id="Combined_Shape" d="M11.279.1L4.016 7.361 1.347 4.692a.331.331 0 0 0-.469 0L.1 5.473a.331.331 0 0 0 0 .469l3.681 3.684a.331.331 0 0 0 .469 0l8.279-8.279a.331.331 0 0 0 0-.469L11.748.1a.331.331 0 0 0-.469 0z" class="cls-1" transform="translate(3 7)"/>
+    </g>
+</svg>
